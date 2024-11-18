@@ -1,0 +1,784 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+nav{
+ position: fixed;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 90px;
+ background: rgba(230,216,168,1);
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+nav .navbar{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 100%;
+ max-width: 90%;
+ background: rgba(230,216,168,1);
+ margin: auto;
+}
+
+
+.gambar{
+  display: flex;
+  width: 150px;
+  height: 99px;
+  background: url("../images/Logo.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+
+}
+nav .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 90%;
+  background: rgba(230,216,168,1);
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+  color: #000000;
+  position: relative;
+  font-size: 27px;
+  left: 25px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.logo a {
+  text-decoration: none;
+  color: #000;
+  font-size: 27px; 
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.logo a:hover {
+  color: #000;
+  text-decoration: none;
+}
+}
+
+nav .navbar .menu {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+.navbar .menu li{
+  list-style: none;
+  text-align: center;
+  margin: 0 40px;
+}
+.navbar .menu li a{
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: Alexandria;
+  font-weight: Regular;
+  text-align: left;
+}
+section{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #96c7e8;
+  font-size: 70px;
+}
+#Home{
+  background: #000000;
+}
+#About{
+  background: #000000;
+}
+#Category{
+  background: #000000;
+}
+#Latest{
+  background: #000000;
+}
+#Contact{
+  background: #000000;
+}
+#Feedback{
+  background: #e6e6e6;
+}
+.button a{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  background: #2980b9;
+  padding: 7px 12px;;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15);
+}
+
+.auth {
+  display: flex;
+  align-items: center;
+}
+
+.auth .daftar {
+  color: #000000;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.auth .masuk {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 5px 15px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.auth .masuk:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 20px;
+  background-color: #fff;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 70px;
+  font-family: Alexandria;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 1px;
+  line-height: 1.2;
+}
+
+.hero-content p {
+  font-size: 24px;
+  color: #333;
+  font-family: Alexandria;
+  font-weight: regular;
+  margin-bottom: 0px;
+}
+
+.hero-content .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e6d8a8;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.hero-content .btn:hover {
+  background-color: #d4c494;
+}
+
+.hero-image img {
+  max-width: 1100px;
+  object-fit: contain;
+}
+
+section {
+  margin: 0; /* Hilangkan margin default */
+  padding: 0; /* Hilangkan padding default */
+}
+
+.menu-title {
+  margin-top: 1px; /* Tambahkan jarak kecil jika diperlukan */
+}
+
+.hero {
+  margin-bottom: 2px; /* Pastikan ada sedikit jarak antara hero dan menu */
+}
+
+.menu-title {
+  text-align: center;
+  margin-top: 0px;
+  color: #000;
+  margin-top: 20px;
+}
+
+.menu-title h2 {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: Alexandria; /* Ganti dengan font sesuai keinginan */
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
+
+.menu-title h2::after {
+  content: "";
+  display: block;
+  width: 100px; /* Panjang garis */
+  height: 4px; /* Ketebalan garis */
+  background-color: #000; /* Warna garis */
+  margin: 5px auto 0; /* Jarak garis dengan teks */
+}
+
+/* Kopi Section */
+.kopi-section {
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.kopi-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.kopi-image img {
+  max-width: 500px;
+  height: auto;
+  object-fit: cover;
+
+  padding: 10px; /* Tambahkan padding agar lebih estetik */
+}
+
+.kopi-content {
+  margin-left: 20px;
+  max-width: 600px;
+}
+
+.kopi-content h3 {
+  font-size: 48px;
+  font-family: Alexandria, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.kopi-content p {
+  font-size: 20px;
+  font-family: Alexandria, sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+}
+.kopi-content h4 {
+  font-size: 35px;
+  font-family: Alexandria, sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.kopi-content .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e6d8a8;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.kopi-content .btn:hover {
+  background-color: #d4c494;
+}
+
+
+/* Roti & Kue Section */
+.roti-section {
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.roti-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.roti-content {
+  max-width: 600px;
+  margin-right: 20px;
+}
+
+.roti-content h3 {
+  font-size: 24px;
+  font-family: Alexandria, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.roti-content p {
+  font-size: 20px;
+  font-family: Alexandria, sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+}
+.roti-content h4 {
+  font-size: 30px;
+  font-family: Alexandria, sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.roti-content .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e6d8a8;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.roti-content .btn:hover {
+  background-color: #d4c494;
+}
+
+.roti-image img {
+  width: 350px; /* Tentukan ukuran gambar (lebar) */
+  height: 350px; /* Tentukan ukuran gambar (tinggi harus sama dengan lebar) */
+  border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+  object-fit: cover; /* Memastikan gambar memenuhi lingkaran dengan proporsi yang benar */
+ 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan untuk estetika */
+}
+
+/* Snacks Section */
+.snacks-section {
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.snacks-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.snacks-image img {
+  width: 350px; /* Tentukan ukuran gambar (lebar) */
+  height: 350px; /* Tentukan ukuran gambar (tinggi harus sama dengan lebar) */
+  border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+  object-fit: cover; /* Memastikan gambar memenuhi lingkaran dengan proporsi yang benar */
+ 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.snacks-content {
+  margin-left: 20px;
+  max-width: 600px;
+}
+
+.snacks-content h3 {
+  font-size: 48px;
+  font-family: Alexandria, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.snacks-content p {
+  font-size: 20px;
+  font-family: Alexandria, sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+}
+.snacks-content h4 {
+  font-size: 30px;
+  font-family: Alexandria, sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.snacks-content .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e6d8a8;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.snacks-content .btn:hover {
+  background-color: #d4c494;
+}
+
+/* Lokasi Kami Section */
+.location-section {
+  background-image: src="images/tentangkami.png"; 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  padding: 50px 20px; 
+  color: #000; 
+}
+
+.location-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+.location-container {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.location-map iframe {
+  width: 100%; 
+  max-width: 350px; 
+  height: 250px;
+  border-radius: 1px; 
+  margin-bottom: 15px;
+}
+
+.location-container p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.backgroundcafe {
+  background: url('./images/"tentangkami.png');
+  width: 100%;
+  height: 742px;
+}
+
+/* Jajaran Direksi Section */
+.direksi-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Latar belakang transparan */
+}
+
+.direksi-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.direksi-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Agar responsif */
+  gap: 20px; /* Jarak antar elemen */
+}
+
+.direksi-item {
+  text-align: center;
+  max-width: 180px;
+}
+
+.direksi-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100; /* Membuat foto berbentuk lingkaran */
+  object-fit: cover; /* Menjaga proporsi gambar */
+  margin-bottom: 10px;
+
+}
+
+.direksi-item h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.direksi-item p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+
+}
+
+
+
+/* Footer */
+.footer {
+  background-color:  rgba(230,216,168,1); /* Warna footer bagian atas */
+  color: #000; /* Warna teks */
+  padding: 30px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Responsif */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px; /* Lebar minimum untuk responsivitas */
+  margin: 10px;
+}
+
+
+.footer-section h1 {
+  text-align: left;
+  font-family: Alexandria;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  top: 1px;
+}
+
+.footer-section h3 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #555;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 24px; /* Ukuran ikon media sosial */
+  height: 24px;
+}
+
+.footer-bottom {
+  background-color: #000; /* Warna footer bagian bawah */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+/* Halaman Menu */
+.menu-page {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.menu-sidebar {
+  width: 250px;
+  background-color: #d6c296;
+  color: #000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.menu-sidebar .logo {
+  text-align: center;
+}
+
+.menu-sidebar .logo img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.menu-sidebar h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu-categories {
+  margin-top: 20px;
+}
+
+.menu-categories h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.menu-categories ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-categories ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.menu-categories ul li.active {
+  color: #d44d2e;
+  font-weight: bold;
+}
+
+.menu-categories ul li span {
+  float: right;
+}
+
+.menu-total {
+  text-align: center;
+}
+
+.menu-total p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.menu-total .order-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Menu Content */
+.menu-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.menu-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.menu-item {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.menu-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.menu-item p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.menu-item .price {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity button {
+  background-color: #d6c296;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.quantity input {
+  width: 40px;
+  text-align: center;
+  margin: 0 5px;
+}
+
+
