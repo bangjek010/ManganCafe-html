@@ -781,4 +781,383 @@ section {
   margin: 0 5px;
 }
 
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d6c296; /* Warna latar */
+  background-image: url('images/pattern.png'); /* Gambar pattern */
+  background-repeat: repeat;
+  font-family: Arial, sans-serif;
+}
 
+.login-container {
+  background-color: #f8f8f8;
+  padding: 30px 20px;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-logo img {
+  width: 200px;
+  left: 0px;
+  top: 0px;
+}
+
+.login-logo h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.login-form h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.login-form p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 40px 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.input-group .icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #999;
+}
+
+.forgot-password {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: #999;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  background-color: #d6c296;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-button:hover {
+  background-color: #c0a86b;
+}
+
+.or-login {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.social-login {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-login button {
+  font-size: 14px;
+  padding: 8px 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.social-login button:hover {
+  background-color: #f1f1f1;
+}
+
+.register {
+  font-size: 14px;
+}
+
+.register a {
+  color: #d44d2e;
+  text-decoration: none;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}
+
+.back-home {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #666;
+  text-decoration: none;
+}
+
+.back-home:hover {
+  text-decoration: underline;
+}
+
+.header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header .logo img {
+  width: 150px;
+}
+
+.header .logo h1 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  top: 20px;
+  left: 20px;
+}
+
+/* Halaman Daftar */
+.register-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #d6c296; /* Warna latar belakang */
+  background-image: url('images/pattern.png'); /* Gambar pattern */
+  background-repeat: repeat;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Logo */
+.header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header .logo img {
+  width: 50px;
+}
+
+.header .logo h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Kontainer Daftar */
+.register-container {
+  background-color: #f8f8f8;
+  padding: 30px 20px;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.register-container h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.register-container p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.register-button {
+  background-color: #d6c296;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.register-button:hover {
+  background-color: #c0a86b;
+}
+
+.login-link {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.login-link a {
+  color: #d44d2e;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* Lupa Sandi Page */
+.forgot-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #d6c296; /* Warna latar belakang */
+  background-image: url('images/pattern.png'); /* Gambar pattern */
+  background-repeat: repeat;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Logo */
+.header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header .logo img {
+  width: 50px;
+}
+
+.header .logo h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Kontainer Lupa Sandi */
+.forgot-container {
+  background-color: #f8f8f8;
+  padding: 30px 20px;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.forgot-container h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.forgot-container p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.input-group .send-code {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background-color: #d6c296;
+  color: #000;
+  border: none;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.input-group .send-code:hover {
+  background-color: #c0a86b;
+}
+
+.submit-button {
+  background-color: #d6c296;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #c0a86b;
+}
+
+.login-link {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.login-link a {
+  color: #d44d2e;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
