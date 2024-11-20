@@ -16,18 +16,18 @@
         <div class="register-container">
           <h2>Daftar dulu lah!</h2>
           <p>Kalo belum punya akun, daftar dulu yuk!</p>
-          <form action="#" method="post">
+          <form action="register.php" method="post">
             <div class="input-group">
-              <input type="text" placeholder="Nama" required>
+              <input type="text" name="nama" placeholder="Nama" required>
             </div>
             <div class="input-group">
-              <input type="email" placeholder="Email" required>
+              <input type="email" name="email" placeholder="Email" required>
             </div>
             <div class="input-group">
-              <input type="text" placeholder="No. Telepon" required>
+              <input type="number" name="phone" placeholder="No. Telepon" required>
             </div>
             <div class="input-group">
-              <input type="password" placeholder="Kata sandi" required>
+              <input type="password" name="password" placeholder="Kata sandi" required>
             </div>
             <button type="submit" class="register-button">Daftar</button>
           </form>
