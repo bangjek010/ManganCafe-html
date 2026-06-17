@@ -15,17 +15,27 @@
 </div>
 
 ---
-<img width="1920" height="1061" alt="image" src="https://github.com/user-attachments/assets/183072fc-9c04-4de1-8c66-d470c94d6506" />
-<img width="1920" height="1060" alt="image" src="https://github.com/user-attachments/assets/ea61c25e-a925-46aa-8b40-f03575a190b3" />
-<img width="1920" height="1060" alt="image" src="https://github.com/user-attachments/assets/73b43187-6e6d-4c9c-9d45-818085e8b131" />
-<img width="1920" height="1060" alt="image" src="https://github.com/user-attachments/assets/1038c5a6-56a8-4b0d-9f49-20e9208e2f21" />
-<img width="1920" height="1068" alt="image" src="https://github.com/user-attachments/assets/f9c0e6d5-d293-45dd-bbf4-323a4d451e36" />
-<img width="1920" height="1057" alt="image" src="https://github.com/user-attachments/assets/7317a87f-111e-418b-a8af-51871cd53f7f" />
 
+<div align="center">
+  <h3>🖼️ Application Screenshots</h3>
+  <table style="width: 100%; max-width: 1000px; border-collapse: collapse; border: none;">
+    <tr style="border: none;">
+      <td style="width: 50%; padding: 8px; border: none;"><img src="https://github.com/user-attachments/assets/183072fc-9c04-4de1-8c66-d470c94d6506" alt="Dashboard Tactic Pitch" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/></td>
+      <td style="width: 50%; padding: 8px; border: none;"><img src="https://github.com/user-attachments/assets/ea61c25e-a925-46aa-8b40-f03575a190b3" alt="Academy Management" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/></td>
+    </tr>
+    <tr style="border: none;">
+      <td style="width: 50%; padding: 8px; border: none;"><img src="https://github.com/user-attachments/assets/73b43187-6e6d-4c9c-9d45-818085e8b131" alt="Shortlist & Targets" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/></td>
+      <td style="width: 50%; padding: 8px; border: none;"><img src="https://github.com/user-attachments/assets/1038c5a6-56a8-4b0d-9f49-20e9208e2f21" alt="Sales Planner" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/></td>
+    </tr>
+    <tr style="border: none;">
+      <td style="width: 50%; padding: 8px; border: none;"><img src="https://github.com/user-attachments/assets/f9c0e6d5-d293-45dd-bbf4-323a4d451e36" alt="Trophy Shelf" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/></td>
+      <td style="width: 50%; padding: 8px; border: none;"><img src="https://github.com/user-attachments/assets/7317a87f-111e-418b-a8af-51871cd53f7f" alt="Light Mode Interface" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/></td>
+    </tr>
+  </table>
+</div>
 
 ---
 
----
 
 ## 📖 About the Application
 
