@@ -12,7 +12,18 @@
   [![Python Builder](https://img.shields.io/badge/Python_Builder-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
   [![FMRTE](https://img.shields.io/badge/FMRTE-Companion-2e7d32?style=for-the-badge&logo=sports&logoColor=white)](https://www.fmrte.com/)
   [![FM Genie Scout](https://img.shields.io/badge/FM_Genie_Scout-Companion-0277bd?style=for-the-badge&logo=scout&logoColor=white)](https://www.fmscout.com/)
+  [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
 </div>
+
+
+---
+
+
+## 📖 About the Application
+
+**FM Planner** is a personal project created specifically to meet my personal needs for tracking role/position scoring weights in **Football Manager (FM)**. 
+
+I usually use this tool in combination with external utilities like **FMRTE (Football Manager Real Time Editor)** or **FM Genie Scout**. These tools are used to calculate and generate positional suitability values (*Scoring*), which I then save here in FM Planner as a centralized, easily analysable tactical planning database.
 
 ---
 
