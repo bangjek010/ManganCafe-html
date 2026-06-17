@@ -15,6 +15,17 @@
 </div>
 
 ---
+<img width="1920" height="1061" alt="image" src="https://github.com/user-attachments/assets/183072fc-9c04-4de1-8c66-d470c94d6506" />
+<img width="1920" height="1060" alt="image" src="https://github.com/user-attachments/assets/ea61c25e-a925-46aa-8b40-f03575a190b3" />
+<img width="1920" height="1060" alt="image" src="https://github.com/user-attachments/assets/73b43187-6e6d-4c9c-9d45-818085e8b131" />
+<img width="1920" height="1060" alt="image" src="https://github.com/user-attachments/assets/1038c5a6-56a8-4b0d-9f49-20e9208e2f21" />
+<img width="1920" height="1068" alt="image" src="https://github.com/user-attachments/assets/f9c0e6d5-d293-45dd-bbf4-323a4d451e36" />
+<img width="1920" height="1057" alt="image" src="https://github.com/user-attachments/assets/7317a87f-111e-418b-a8af-51871cd53f7f" />
+
+
+---
+
+---
 
 ## 📖 About the Application
 
